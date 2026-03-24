@@ -1,5 +1,6 @@
 import pygame
 import logging
+import local
 from typing import Optional, Tuple, List
 
 logging.basicConfig(level=logging.WARNING)
