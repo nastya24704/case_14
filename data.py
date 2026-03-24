@@ -79,7 +79,7 @@ def load_grid_from_file(filename: str) -> List[List[int]]:
             loaded_grid.append([int(char) for char in processed_line])
 
     if not loaded_grid:
-        raise ValueError(f'{local.FILE} "{filename}" {local.NOT_CONTAIN_DATA }')
+        raise ValueError(f'{local.FILE} "{filename}" {local.NOT_CONTAIN_DATA}')
 
     expected_cols = len(loaded_grid[0])
     for row_idx, row_data in enumerate(loaded_grid):
